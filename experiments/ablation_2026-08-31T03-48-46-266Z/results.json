@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-08-31T03:48:52.991Z",
+  "image_count_used": 5,
+  "used_synthetic_covers": false,
+  "seed": 42,
+  "ablations": [
+    {
+      "name": "Full LF-RINN Neural Model (Proposed)",
+      "psnr": 76.39,
+      "ssim": 1,
+      "security_score": 94,
+      "detection_rate": 0.0606
+    },
+    {
+      "name": "Ablation A: Uniform Allocation (No CostMap)",
+      "psnr": 76.89,
+      "ssim": 1,
+      "security_score": 94,
+      "detection_rate": 0.0606
+    },
+    {
+      "name": "Ablation B: Pure OPAP (No EMD in Zone A)",
+      "psnr": 75.92,
+      "ssim": 1,
+      "security_score": 94,
+      "detection_rate": 0.0606
+    },
+    {
+      "name": "Ablation C: Standard LSB (No OPAP in Zones B/C)",
+      "psnr": 74.36,
+      "ssim": 1,
+      "security_score": 94,
+      "detection_rate": 0.0606
+    }
+  ],
+  "experiment_dir": "/app/applet/experiments/ablation_2026-08-31T03-48-46-266Z"
+}

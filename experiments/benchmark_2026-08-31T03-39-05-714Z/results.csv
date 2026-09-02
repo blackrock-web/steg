@@ -1,0 +1,5 @@
+strategy,psnr_mean,ssim_mean,bpp,stego_detection_rate,latency_ms
+"Proposed: LF-RINN ONNX + Adaptive EMD-OPAP",69.12,1,0.02,0.0622,400.9
+"Baseline: Pure EMD (Zhang & Wang 2006)",68.52,1,0.02,0.0622,60.3
+"Baseline: Standard OPAP (Chan & Cheng 2004)",69.44,1,0.02,0.0622,61
+"Baseline: Sequential LSB",72.28,1,0.02,0.0624,43.5

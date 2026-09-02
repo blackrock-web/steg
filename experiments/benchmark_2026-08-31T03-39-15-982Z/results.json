@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-08-31T03:39:16.635Z",
+  "image_count": 1,
+  "image_count_used": 1,
+  "used_synthetic_covers": true,
+  "seed": 42,
+  "strategies_evaluated": 4,
+  "metrics": [
+    {
+      "strategy": "Proposed: LF-RINN ONNX + Adaptive EMD-OPAP",
+      "psnr_mean": 68.06,
+      "ssim_mean": 1,
+      "bpp": 0.02,
+      "stego_detection_rate": 0.0622,
+      "latency_ms": 468.4
+    },
+    {
+      "strategy": "Baseline: Pure EMD (Zhang & Wang 2006)",
+      "psnr_mean": 67.79,
+      "ssim_mean": 1,
+      "bpp": 0.02,
+      "stego_detection_rate": 0.0622,
+      "latency_ms": 66.1
+    },
+    {
+      "strategy": "Baseline: Standard OPAP (Chan & Cheng 2004)",
+      "psnr_mean": 68.98,
+      "ssim_mean": 1,
+      "bpp": 0.02,
+      "stego_detection_rate": 0.0622,
+      "latency_ms": 65.2
+    },
+    {
+      "strategy": "Baseline: Sequential LSB",
+      "psnr_mean": 72.6,
+      "ssim_mean": 1,
+      "bpp": 0.02,
+      "stego_detection_rate": 0.0623,
+      "latency_ms": 45.6
+    }
+  ],
+  "experiment_dir": "/app/applet/experiments/benchmark_2026-08-31T03-39-15-982Z"
+}

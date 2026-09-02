@@ -1,0 +1,5 @@
+name,psnr,ssim,security_score,detection_rate
+"Full LF-RINN Neural Model (Proposed)",76.39,1,94,0.0606
+"Ablation A: Uniform Allocation (No CostMap)",76.89,1,94,0.0606
+"Ablation B: Pure OPAP (No EMD in Zone A)",75.92,1,94,0.0606
+"Ablation C: Standard LSB (No OPAP in Zones B/C)",74.36,1,94,0.0606
